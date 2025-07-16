@@ -56,7 +56,7 @@ We use standard binary classification metrics:
 - **Features**: Structural elements of URL, domain, path, etc.
 - **Label**: `phishing` (0 = legitimate, 1 = phishing)
 
-> 📎 Dataset Source: [Add your dataset source or citation here]
+> 📎 Dataset Source: https://www.kaggle.com/datasets/michellevp/dataset-phishing-domain-detection-cybersecurity?resource=download 
 
 ---
 
