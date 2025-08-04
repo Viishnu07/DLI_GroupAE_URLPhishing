@@ -20,7 +20,7 @@ The model is trained, tested, and evaluated in **Google Colab** and meets the as
 
 ## 🎯 Project Objective
 
-Detect phishing URLs using a **Multi-Layer Perceptron (MLP)** model trained on a public dataset with over **120,000+ samples**. The final evaluation uses metrics such as **F1-score**, **ROC-AUC**, and a **confusion matrix**.
+Detect phishing URLs using a **Multi-Layer Perceptron (MLP)** model trained on a public dataset with over **88,647+ samples**. The final evaluation uses metrics such as **F1-score**, **ROC-AUC**, and a **confusion matrix**.
 
 ---
 
