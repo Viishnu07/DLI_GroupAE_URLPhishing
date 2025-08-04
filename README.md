@@ -26,43 +26,49 @@ Detect phishing URLs using a **Multi-Layer Perceptron (MLP)** model trained on a
 
 ## 📊 Evaluation Metrics
 
-We use standard binary classification metrics:
+We use standard binary classification metrics for phishing detection:
 
 - ✅ **Accuracy**
 - ✅ **Precision**
 - ✅ **Recall**
-- ✅ **F1-score** (Target: ≥ 0.90)
+- ✅ **F1-score** (🎯 Target: ≥ 0.90)
 - ✅ **ROC-AUC**
-- ✅ Confusion Matrix
+- ✅ **Confusion Matrix**
+- ✅ **ROC Curve**
 
 ---
 
 ## 🛠️ Tools & Libraries
 
-- [Google Colab](https://colab.research.google.com/)
+Our project is implemented using the following tools and Python libraries:
+
+- 🧠 Google Colab (free GPU/CPU)
 - `pandas`, `numpy`
 - `scikit-learn`
 - `matplotlib`, `seaborn`
 - `tensorflow` / `keras`
-- `gdown` (to download dataset from Drive, if needed)
-- `streamlit` or `gradio` (optional GUI bonus)
+- `gdown` (for dataset download, optional)
+- `streamlit` or `gradio` (for GUI – bonus)
 
 ---
 
 ## 📌 Dataset Information
 
-- **Name**: Phishing URL Dataset
-- **Size**: ~129,000 rows
-- **Features**: Structural elements of URL, domain, path, etc.
-- **Label**: `phishing` (0 = legitimate, 1 = phishing)
-
-> 📎 Dataset Source: https://www.kaggle.com/datasets/michellevp/dataset-phishing-domain-detection-cybersecurity?resource=download 
+- **Name**: Phishing Website Dataset (Mendeley)
+- **Source**: Nayak, G.S. (2023). _Detection of Phishing Websites Using Machine Learning and Deep Learning Techniques_. [Mendeley Data](https://data.mendeley.com/datasets/72ptz43s9v)
+- **Size**: 88,647 rows, 112 columns
+- **Features**: Numerical attributes representing URL structure, domain characteristics, and protocol flags
+- **Label**: `phishing` —  
+  - `0` = Legitimate  
+  - `1` = Phishing
 
 ---
 
 ## 🚀 Success Metric
 
-Our final goal is to achieve:
-
-```text
-✅ F1-score ≥ 0.90 on the phishing detection task
+> 🎯 **Achieve F1-score ≥ 0.90** on the phishing detection task using a deep learning model (MLP).
+>
+> The model is trained in Google Colab and validated using metrics including F1-score, ROC-AUC, and confusion matrix.
+>
+> Example output:  
+> `Achieved F1 = 0.91, target met ✅`
