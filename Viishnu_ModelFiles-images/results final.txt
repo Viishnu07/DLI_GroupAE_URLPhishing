@@ -1,0 +1,17 @@
+================ FINAL ENSEMBLE — TEST ================
+thr: 0.507000
+acc: 0.961300
+prec: 0.934615
+rec: 0.956222
+f1: 0.945295
+auc: 0.992467
+fpr: 0.035969
+infer_ms: 0.000002
+aps: 0.968446
+
+Top features used (k=30): ['qty_dot_directory', 'time_domain_expiration', 'directory_length', 'domain_spf', 'domain_in_ip', 'time_domain_activation', 'qty_ip_resolved', 'url_shortened', 'qty_dot_domain', 'qty_hyphen_url', 'tls_ssl_certificate', 'qty_dot_url', 'qty_tld_url', 'qty_tilde_url', 'qty_slash_directory', 'qty_hyphen_domain', 'qty_redirects', 'qty_at_url', 'qty_nameservers', 'qty_underline_url', 'qty_equal_url', 'qty_vowels_domain', 'qty_and_url', 'email_in_url', 'qty_questionmark_url', 'asn_ip', 'length_url', 'qty_slash_url', 'qty_dot_file', 'qty_mx_servers']
+
+| Model | Accuracy | Precision | Recall | F1-score | Anti-Phishing Score |
+| ----- | -------- | --------- | ------ | -------- | ------------------- |
+| Paper | 0.9553   | 0.9521    | 0.9598 | 0.9560   | 0.9521              |
+| Yours | 0.9546   | 0.9325    | 0.9380 | 0.9353   | 0.8585              |
