@@ -32,7 +32,7 @@ We assess performance using:
 - ✅ **Accuracy**  
 - ✅ **Precision**  
 - ✅ **Recall**  
-- ✅ **F1-score** (🎯 Target ≥ 0.90)  
+- ✅ **F1-score** 
 - ✅ **ROC-AUC**  
 - ✅ **Confusion Matrix**  
 - ✅ **ROC Curve**  
