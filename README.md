@@ -10,7 +10,7 @@ The final system adopts a **Convolutional Neural Network (CNN)**, tuned with opt
 
 | Name | Role |
 |------|------|
-| Loo Shu Hinn & Chan Yong Kang  | Model Lead |
+| Loo Shu Hinn & Chan Yong Kang  | Model Lead + GUI|
 | Venus Ong Jin Wen              | Data Lead |
 | Viishnu Sree Ganesh            | Evaluation Lead |
 | Minhal Ali                     | Documentation Lead |
