@@ -10,7 +10,7 @@ The model is trained, tested, and evaluated in **Google Colab** and meets the as
 
 | Name | Role |
 |------|------|
-|    | GUI Lead |
+| Chan Yong Kang   | GUI Lead |
 | Loo Shu Hinn  | Model Lead |
 | Venus Ong Jin Wen | Data Lead |
 | Viishnu Sree Ganesh | Evaluation Lead |
