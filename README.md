@@ -2,7 +2,9 @@
 
 This repository contains our group project. Our objective was to design and evaluate deep learning models for detecting **phishing URLs**, leveraging both character- and domain-based features from real-world datasets.  
 
-The final system adopts a **Convolutional Neural Network (CNN)**, tuned with optimized thresholds for balanced **precision and recall**, achieving **F1 = 0.991** and **ROC-AUC = 0.9996** on the test set. These results demonstrate both robustness and efficiency, aligning with recent research such as **DEPHIDES (2024)**, which found CNNs highly effective for phishing URL detection:contentReference[oaicite:2]{index=2}.  
+The final system adopts a **Convolutional Neural Network (CNN)**, tuned with optimized thresholds for balanced **precision and recall**, achieving **F1 = 0.991** and **ROC-AUC = 0.9996** on the test set. These results demonstrate both robustness and efficiency, aligning with recent research such as **DEPHIDES (2024)**, which found CNNs highly effective for phishing URL detection.
+
+GUI URL: https://ab2d48ef844d55a697.gradio.live/
 
 ---
 
